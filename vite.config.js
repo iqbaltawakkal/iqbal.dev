@@ -50,8 +50,10 @@ export default defineConfig({
     script: "async",
     formatting: "minify",
   },
-
   optimizeDeps: {
     include: ["vue", "vue-router"],
+  },
+  server: {
+    port: 3333,
   },
 });
