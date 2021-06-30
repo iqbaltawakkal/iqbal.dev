@@ -8,7 +8,7 @@
       >
         <img
           class="w-56 h-56 rounded-full"
-          src="../assets/headshot.JPG"
+          src="../assets/headshot.jpg"
           alt=""
         />
         <div class="text-left space-y-4">
