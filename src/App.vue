@@ -1,5 +1,7 @@
 <template>
-  <router-view />
+  <Header />
+  <router-view class="pt-14" />
+  <Hover />
 </template>
 
 <script setup>
