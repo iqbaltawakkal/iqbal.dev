@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 left-0 right-0">
+  <header class="fixed top-0 left-0 right-0 bg-dark-primary-bg">
     <div
       class="container mx-auto flex justify-between items-center text-dark-primary-text p-4 md:px-0"
     >
