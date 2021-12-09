@@ -6,7 +6,7 @@
       alt="Sunset in the mountains"
     />
     <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">{{ props.title }}</div>
+      <div class="font-bold text-lg mb-2">{{ props.title }}</div>
       <p class="text-base text-dark-secondary-text">{{ props.desc }}</p>
     </div>
     <div class="px-6 pt-4 pb-2">

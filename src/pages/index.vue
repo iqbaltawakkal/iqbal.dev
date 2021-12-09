@@ -10,7 +10,7 @@
           <p class="text-dark-secondary-text">
             Frontend Developer from Indonesia, specialized in develop
             user-facing web applications using various Frameworks. Vue/Nuxt is
-            my main expertise, but i also use React/Nextjs and eager to learn
+            my main expertise, but i do React/Nextjs too and eager to learn
             more. I'm also a fan of the open-source community.
           </p>
           <p class="text-dark-secondary-text">
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="container mx-auto">
-      <h1 class="text-3xl font-semibold mb-8">My Works</h1>
+      <h1 class="text-2xl font-semibold mb-8">My Works</h1>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <Card
           v-for="(item, index) in works"
@@ -40,34 +40,39 @@ const works = [
   {
     title: "SITABA: Map based System Information",
     desc:
-      "Goverment web application for monitoring disaster and infrasrtucture",
+      "Goverment web application for monitoring disaster and infrasrtucture.",
     tags: ["nuxt", "tailwind", "leaflet", "responsive"],
   },
   {
-    title: "Wiegand: Digital Car Showroom",
-    desc: "Web application for car showroom",
+    title: "Wiegand Automobile",
+    desc: "Digital car showroom web application.",
     tags: ["nuxt", "tailwind", "responsive"],
   },
   {
-    title: "Jumpapay x Linkaja: Sass payment system",
-    desc: "Mobile focused payment system for native mobile webview",
+    title: "Jumpapay x Linkaja: Tax payment service",
+    desc: "Mobile focused webview to integrate linkaja payment system.",
     tags: ["vue", "tailwind", "vuex", "vue-router", "mobile focused"],
   },
   {
-    title: "Jumpapay x Gojek: Sass payment system",
+    title: "Jumpapay x Gojek: Tax payment service",
     desc:
-      "Mobile focused payment system for native mobile webview (required gojek account to use)",
+      "Mobile focused webview to integrate gojek payment system (account required)",
     tags: ["vue", "tailwind", "vuex", "vue-router", "mobile focused"],
   },
   {
-    title: "Temanlegal: Sass legal advisory",
-    desc: "Web application for legal advisory service",
+    title: "Temanlegal: legal advisory service",
+    desc: "Web application for legal advisory Saas.",
     tags: ["nuxt", "tailwind", "firebase", "responsive"],
   },
   {
     title: "Online Chess Clock",
-    desc: "Chess clock web application for on the board chess game",
+    desc: "Chess clock web application for on the board chess game.",
     tags: ["nextjs", "tailwind", "PWA", "mobile focused"],
+  },
+  {
+    title: "Reza x Dewi Wedding profile",
+    desc: "Wedding profile web application with personal invitation.",
+    tags: ["nuxt", "tailwind", "PWA", "responsive", "faunaDB"],
   },
 ];
 </script>
