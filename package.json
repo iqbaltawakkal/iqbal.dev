@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "prism-theme-vars": "^0.2.2",
-    "vue": "^3.1.2",
+    "vue": "^3.2.37",
     "vue-router": "^4.0.10"
   },
   "devDependencies": {
@@ -29,11 +29,11 @@
     "postcss": "^8.2.7",
     "prettier": "^2.2.1",
     "tailwindcss": "^2.0.3",
-    "vite": "^2.3.8",
-    "vite-plugin-components": "^0.11.2",
+    "vite": "^3.0.8",
+    "vite-plugin-components": "^0.13.3",
     "vite-plugin-icons": "^0.6.3",
     "vite-plugin-md": "^0.6.7",
     "vite-plugin-pages": "^0.13.4",
-    "vite-ssg": "^0.11.4"
+    "vite-ssg": "^0.20.2"
   }
 }
