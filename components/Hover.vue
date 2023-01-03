@@ -1,9 +1,11 @@
 <template>
   <div class="bg-white fixed right-5 bottom-5 rounded-full">
-    <a class="flex w-10 h-10 items-center justify-center" @click="dark = !dark">
-      <Icon v-if="dark" name="carbon-awake" class="text-xl" />
-      <Icon v-else name="carbon-asleep" class="text-xl" />
-    </a>
+    <label class="swap swap-rotate text-xl w-10 h-10 text-dark-secondary-text">
+      <!-- this hidden checkbox controls the state -->
+      <input v-model="dark" type="checkbox" />
+      <Icon name="carbon-awake" class="swap-on" />
+      <Icon name="carbon-asleep" class="swap-off" />
+    </label>
   </div>
 </template>
 

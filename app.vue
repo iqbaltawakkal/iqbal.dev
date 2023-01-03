@@ -29,8 +29,10 @@
         </div>
       </div>
       <div class="container mx-auto mb-8">
-        <h1 class="text-2xl font-semibold mb-8">My Works</h1>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <h1 class="text-2xl font-semibold mb-8">Recent works</h1>
+      </div>
+      <div class="slider overflow-hidden">
+        <div class="slide-track">
           <Card
             v-for="(item, index) in works"
             :key="index"
@@ -41,17 +43,22 @@
         </div>
       </div>
     </div>
-    <Footer />
-    <Hover />
+    <Footer v-if="false" />
+    <Hover v-if="false" />
   </main>
 </template>
 
 <script setup>
 const works = [
   {
+    title: "Marqly: Bookmark manager",
+    desc: "Chrome extenstion for managing bookmark like a pro.",
+    tags: ["vue", "tailwind", "composition api", "pinia"],
+  },
+  {
     title: "SITABA: Map based System Information",
     desc: "Goverment web application for monitoring disaster and infrasrtucture.",
-    tags: ["nuxt", "tailwind", "leaflet", "responsive"],
+    tags: ["nuxt", "tailwind", "leaflet", "responsive", "composition api"],
   },
   {
     title: "Wiegand Automobile",
@@ -85,3 +92,24 @@ const works = [
   },
 ];
 </script>
+
+<style>
+.slide-track {
+  display: inline-block;
+  animation: move 30s linear infinite;
+  white-space: nowrap;
+}
+
+.slide-track .card {
+  margin: 0px 20px;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>

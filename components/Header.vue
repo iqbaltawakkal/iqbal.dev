@@ -7,9 +7,15 @@
         <a class="text-2xl font-extrabold">Iqbal.dev</a>
       </div>
       <div class="flex justify-evenly gap-6">
-        <a><Icon name="uil:envelope" class="text-2xl" /></a>
-        <a><Icon name="uil:github" class="text-2xl" /></a>
-        <a><Icon name="uil:linkedin" class="text-2xl" /></a>
+        <a target="_blank" href="mailto:iqbaltawakkal1@gmail.com"
+          ><Icon name="uil:envelope" class="text-2xl"
+        /></a>
+        <a target="_blank" href="https://github.com/iqbaltawakkal"
+          ><Icon name="uil:github" class="text-2xl"
+        /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/iqbaltawakkal1/"
+          ><Icon name="uil:linkedin" class="text-2xl"
+        /></a>
       </div>
     </div>
   </header>
