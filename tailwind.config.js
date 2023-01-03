@@ -37,5 +37,30 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#4fcc53",
+
+          secondary: "#ea0079",
+
+          accent: "#c2cdfc",
+
+          neutral: "#202537",
+
+          "base-100": "#264759",
+
+          info: "#7292E9",
+
+          success: "#15705F",
+
+          warning: "#F7B85E",
+
+          error: "#E23667",
+        },
+      },
+    ],
+  },
 };
