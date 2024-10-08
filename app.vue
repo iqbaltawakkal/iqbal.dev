@@ -8,7 +8,7 @@
       <div class="h-32 overflow-hidden">
         <img
           class="w-full"
-          src="./assets/img/backdrop.JPG"
+          src="./assets/img/backdrop.jpg"
           alt=""
         >
       </div>
