@@ -21,7 +21,7 @@
       </div>
       <div class="mb-14">
         <div class="text-center px-14">
-          <h2 class="text-gray-800 text-3xl font-bold">
+          <h2 class="text-gray-800 text-xl sm:text-3xl font-bold">
             Iqbal Tawakkal
           </h2>
           <h3
